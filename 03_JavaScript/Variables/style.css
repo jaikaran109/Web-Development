@@ -1,0 +1,40 @@
+.bag-btn{
+    cursor: pointer;
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;    
+}
+.bag-btn:hover{
+    background-color: violet;
+    color: white;
+}
+
+.wishlist-btn{
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    text-transform: uppercase;
+}
+.wishlist-btn:hover{
+    background-color: black;
+    color: pink;
+}
+
+.bag-btn-2{
+    background-color: lightgreen;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    padding: 5px 15px 5px 15px;
+
+
+}
+.bag-btn-2:hover{
+    background-color: rgb(36, 189, 95);
+    color: gold;    
+    
+    
+}
