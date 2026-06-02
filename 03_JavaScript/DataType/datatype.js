@@ -4,7 +4,6 @@
 
 
 
-
 const score = new Number(100);      // create Number Object
 console.log(score); 
 console.log(typeof score);          // object
