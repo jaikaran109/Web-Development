@@ -83,3 +83,31 @@ let fun = function (){
 let v = fun;
 v = null;
 v();
+
+
+
+
+function OnetoN(n){
+    for(let i = 1 ; i <= n ; i++){
+        console.log(i);
+    }
+    console.log();
+}
+
+OnetoN(5);
+OnetoN(19);
+OnetoN(39);
+
+
+
+
+
+console.log("Print the sum of cubes ")
+function eqn(a,b){
+    return  Math.abs(a**3) + Math.abs(b**3);
+}
+console.log(eqn(2,3));
+
+
+
+
