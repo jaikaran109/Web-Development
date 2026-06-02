@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Myntra Cart</title>
+</head>
+<body>
+    <header>
+        <h1>Variables</h1>
+    </header>
+
+    <hr>
+
+    <main>
+        <h3>Myntra Bag Exercise</h3>
+
+        <button class="bag-btn" onclick="cartQuantity = cartQuantity + 1 ;
+        document.querySelector('#cart-summary').innerText = `Your Bag ${cartQuantity} has items`">Add to bag</button>
+
+        <button class="wish-btn" onclick="cartQuantity = cartQuantity - 1 ;
+        document.querySelector('#cart-summary').innerText = `Your Bag ${cartQuantity} has items`">❤️ move to WISHLIST</button>
+
+        <button class="bag-btn2" onclick="cartQuantity += 2 ;
+        document.querySelector('#cart-summary').innerText = `Your Bag ${cartQuantity} has items`">Add 1+1 sale item</button>
+    </main>
+
+    <h2 id="cart-summary"></h2>
+    <script src="app.js"></script>
+</body>
+</html>
