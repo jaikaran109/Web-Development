@@ -1,0 +1,89 @@
+<!-- In this we learn about the hove
+    jb tm kisi button/icon pe click krte ho to uska color chaange ho jata h
+    ex:- subscribe button  -->
+
+
+    <!-- hover - jb tmhara pointer icon pe jayega to jo colors change honge uske liye hota h
+    isme opacity set kr skte h means vo kitna fade hoga ye 0 se 1 ke beech me hota h , background color , etc -->
+
+    <!-- active - jb tm button pe click kroge to kaise colors vgaira show honge uske liye h  
+    isme bhi opacity set kr skte h , colors,etc -->
+
+    <!-- transition is for how smooth transition you want on click -->
+
+<style>
+    .subscribe-button{
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width:105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right:8px;
+        transition:opacity 0.15s;
+    }
+
+
+    .subscribe-button:hover{
+        opacity: 0.8;
+    }
+    .subscribe-button:active{
+        opacity: 0.5;
+    }
+
+
+    .join-button{
+        background-color:white;
+        color:rgb(41,118,211);
+        border-color:rgb(41,118,211);
+        border-style:soolid;
+        border-width:1px;
+        height:36px;
+        width:62px;
+        border-radius: 2px;
+        cursor:pointer;
+        transition: background-color 0.15s , color 0.15s;;
+    }
+
+    .join-button:hover{
+        background-color:rgb(41,118,211);
+        color: white;
+    }
+
+    .join-button:active{
+        opacity: 0.7;
+    }
+
+    .tweet-button{
+        background-color: rgb(2,155,255);
+        color:white;
+        border:none;
+        border-radius:18px;
+        height:36px;
+        width:74px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor:pointer;
+        margin-left:8px;
+        transition: box-shadow 0.15s;
+    }
+
+    .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    }
+</style> <!-- Not Visible on browser-->
+
+
+
+    <button class="subscribe-button">
+        SUBSCRIBE
+    </button>
+
+    <button class="join-button">
+        JOIN
+    </button>
+
+    <button class="tweet-button">
+        Tweet
+    </button>

@@ -1,0 +1,60 @@
+<!-- BASICS OF CSS   prefer W3 for Syntax-->
+
+
+
+
+<!--  style ke ander jo button hai -- CSS Selector hai jo btata h ki konse tag pe operation krna h -->
+<!-- comes under button{ background-color: -- is called css property , and :red is called css value}-->
+
+<!--agr hm button pe operations krenge to jitne bhi buttons honge uspe same operation hoga
+    isiliye hm buttons ko lebel kr denge aur usko .class-name se access krenge -->
+
+<style>
+    .subscribe-button{
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width:105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right:8px;
+    }
+
+    .join-button{
+        background-color:white;
+        color:rgb(41,118,211);
+        border-color:rgb(41,118,211);
+        border-style:soolid;
+        border-width:1px;
+        height:36px;
+        width:62px;
+        border-radius: 2px;
+        cursor:pointer;
+    }
+
+    .tweet-button{
+        background-color: rgb(2,155,255);
+        color:white;
+        border:none;
+        border-radius:18px;
+        height:36px;
+        width:74px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor:pointer;
+        margin-left:8px;
+    }
+</style> <!-- Not Visible on browser-->
+
+<button class="subscribe-button">
+    SUBSCRIBE
+</button>
+
+<button class="join-button">
+    JOIN
+</button>
+
+<button class="tweet-button">
+    TWEET
+</button>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catty Profile </title>
+    <style>
+        .profile-container{
+            display: flex;
+            align-items: center;
+            font-family: Roboto , Arial;
+        }
+        
+        .catty{
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            margin-right: 15px;
+        }
+        .info-container{
+            display: inline-block;
+            width: 300px;
+        }
+        p{
+            margin: 0;
+            line-height: 20px;
+            font-size: 15px;
+        }
+        .status,
+        .ctg{
+            color: rgb(96,96,96);
+        }
+        .status{
+            font-size: 12px;
+        }
+        .name{
+            font-weight: bold;
+        }
+        .follow-button{
+            background-color: rgb(29,155,240);
+            color: white;
+            border-radius: 10px;
+            padding: 8px 16px;;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div>
+            <img class="catty" src="image/image.png">
+        </div>
+        <div class="info-container">
+            <p class="name">oliver</p>
+            <p class="ctg">the cat</p>
+            <p class="status">Popular</p>
+        </div>
+        <button class="follow-button">Follow</button>
+    </div>
+</body>
+</html>
