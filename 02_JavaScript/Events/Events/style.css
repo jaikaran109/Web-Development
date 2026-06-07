@@ -1,0 +1,19 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+        height: 200px;
+        width: 200px;
+        background: lightgreen;
+        border: 1px solid black;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
