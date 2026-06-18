@@ -1,0 +1,26 @@
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+
+div:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+
+input:focus{     /*    jb tm input wale me jaoge to uska size increase ho jayega    */
+    font-size: 60px;
+}
+
+a:active{     /*    double click kroge to aqua ho jayega    */
+    color: aqua;
+}
+
+a:visited{     /*    visited links ka color change ho jayega    */
+    color: rgb(241, 241, 5);
+}
+
