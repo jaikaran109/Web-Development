@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+div,span{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+
+    padding: 10px;
+
+    border: 5px solid blue;
+    margin: 100px;
+}
+
+span{
+    display: inline-block;
+}
