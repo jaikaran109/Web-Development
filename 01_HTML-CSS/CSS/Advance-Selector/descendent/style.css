@@ -1,0 +1,8 @@
+#san > article > div > h1{  /* parent to child selection*/
+    color: red;
+    font-size: 70px;
+}
+
+
+
+/* There are many ways to select elements - attribute,pseudo-classes  */
