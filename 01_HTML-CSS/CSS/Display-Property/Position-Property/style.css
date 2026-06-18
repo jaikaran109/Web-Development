@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 20px;
+}
+
+
+#static #middle{    
+    position: static;    /* element static ho jayega  */
+    top: 100px;
+    left: 100px;
+}
+
+#relative #middle{
+    position: relative;
+    /* top: 50px;
+    left: 90px; */
+}
+
+
+#absolute{
+    position: relative;
+    border: 1px solid green;
+}
+
+
+#absolute #middle{
+    position: absolute;  /* position: absolute removes an element from the normal flow and places it at an exact location relative to its nearest positioned parent. */
+    top: 10px;
+}
+
+
+
+#fixed{             /* ye ek place pe fixed ho jata h jaise websites me header */
+    position: relative;
+}
+
+
+#fixed #middle{
+    position: fixed;
+    top: 100px;
+}
+
+
+
+
+#sticky{   /* Combination of Fixed and Relative */
+    height: 600px;
+    border: 2px solid black;
+}
+
+
+#sticky #middle{
+    position: sticky;
+    top: 50px;
+    left: 400px;
+}
