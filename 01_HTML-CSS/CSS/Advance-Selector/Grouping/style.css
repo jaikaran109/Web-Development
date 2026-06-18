@@ -1,0 +1,25 @@
+/* h1{
+    color : red;
+    border: 2px solid rgb(211, 211, 18);
+}
+
+p{
+    color : red;
+    border: 2px solid rgb(211, 211, 18);
+}
+
+div{
+    color : red;
+    border: 2px solid rgb(211, 211, 18);
+} */
+
+
+
+/* DRY - Don't Repeat Yourself */
+
+/* ------------GROUPING--------------- */
+
+h1,p,div{
+    color : red;
+    border: 2px solid rgb(211, 211, 18);
+}
