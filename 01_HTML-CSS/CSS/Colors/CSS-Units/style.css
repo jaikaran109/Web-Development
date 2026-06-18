@@ -1,0 +1,59 @@
+/* absolute unit */
+/* 
+    h1{
+        font-size : 23px;
+    }   
+ */
+
+
+/* relative units*/
+
+/* % => parent */
+
+
+
+section{
+    background-color: red;
+    width: 100%;
+}
+
+article{
+    background-color: orange;
+    width: 50%;
+}
+
+
+
+/* em => snowball effect */
+/* #jai{
+    /* font-size: 10px;        by default 16px jata h */
+/* }  */
+
+/* ul>li{ */
+    /* font-size: 2em;  2 times the size of the parent. In this 2 times of ul */
+    /* inspect and see the changes in font size */
+/* }  */
+
+
+
+/* rem = root = html*/
+/* ul>li{    */
+     /* font-size: 2em;  2 times the size of the parent. In this 2 times of html */
+    /* inspect and see the changes in font size  ( by default size is 16px )*/
+/* }  */
+
+
+
+/* vh/vw */
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 60vh;
+    height: 60vh;
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+} */
