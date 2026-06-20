@@ -1,0 +1,217 @@
+*{
+    margin : 0%;
+    padding : 0%;
+    box-sizing  : border-box;
+}
+
+div{
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+    background-color: lightgoldenrodyellow;
+    margin: 0 auto;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Max - Width */
+
+/* @media screen and (max-width : 1280px){    /* max-width = 1280px means 0 to 1280px */
+/*  h1{
+        background-color: rgb(44, 215, 35);
+    }
+    p{
+        background-color: pink;
+    }
+} */
+
+
+/* In Case of max-width
+
+Note - jb bhi ye write kro to size ka order max > sec max > third max ....
+    rakhna nhi to agr properties same rhi and large wala last me rha to vo sbko
+    dominate kr lega aur sbko overwrite kr dega
+    
+    
+    Example : 
+
+    @media screen and (max-width : 1024){
+        h1{
+            font-size: 100px;
+            background-color: red;
+        }
+
+        p{
+            font-size: 100px;
+            background-color: orange;
+        }
+    }
+
+
+
+    @media screen and (max-width : 1280px){
+        h1{
+            background-color: rgb(44, 215, 35);
+        }
+        p{
+            background-color: pink;
+        }
+    }
+
+
+        -- if ye order ho to 1024 wale ka color kbhi show krega hi nhi kyuki 1280 wala dominating h 
+
+    */
+
+
+/* @media screen and (max-width : 1024px){
+    h1{
+        font-size: 100px;
+        background-color: red;
+    }
+
+    p{
+        font-size: 100px;
+        background-color: orange;
+    }
+} */
+
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* Min - Width */
+/* @media screen and (min-width : 576px){
+    h1{
+        font-size: 100px;
+        background-color: aliceblue;
+    }
+} */
+
+/* In case of Min Width 
+    Note : isme  max width ka opposite hota h 
+    phle choti values then maximum values kyuki isme mentioned pixels and usse up infinity tk same apply hota h
+    isiliye hm larger values ko neeche rakhte h 
+
+
+    Example :-
+
+
+    @media screen and (min-width : 768px){
+        h1{
+            font-size: 30px;
+            color: palegreen;
+            background-color: blueviolet;
+        }
+    }
+
+
+    @media screen and (min-width : 576px){
+        h1{
+            font-size: 100px;
+            background-color: aliceblue;
+        }
+    }
+
+
+    suppose ye order h to jo same values honge usko 576 wala overwrite kr dega kyuki 576 wala point last me check kr rhe h
+
+    bhai samjh nhi aa rha h to iss code ko ek ek kr ke chla lo
+
+*/
+
+
+
+
+/* @media screen and (min-width : 768px){
+    h1{
+        font-size: 30px;
+        color: palegreen;
+        background-color: blueviolet;
+    }
+} */
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* Landscape (phone 90 deg rotated) , Portrait (seedha phone) */
+/* Note
+landscape = width > height;
+portrait = height > width; */
+
+/* @media screen and (orientation : portrait){
+    h1{
+        background-color : darkred;
+        border : 5px solid blue;
+    }
+
+    p{
+        color : wheat;
+    }
+} */
+
+
+/* @media screen and (orientation : landscape){
+    h1{
+        background-color : rgb(176, 203, 41);
+        border : 6px solid rgb(106, 8, 121);
+    }
+
+    p{
+        color : rgb(12, 29, 89);
+    }
+} */
+
+
+
+
+
+/* Abhi tk uper jitna kiya vo AND condition thi ab OR perform krte h */
+
+@media screen and (min-width : 800px) , (orientation: portrait){
+    h1{
+        color: rgb(6, 15, 177);
+    }
+    p{
+        font-size: 80px;
+    }
+}
+
+
+/* Isme dhyaan dena upper wala condtion jb meet kr rha h to uska code chal rha h
+    jb dono conflict krenge jaise for EXAMPLE
+        width = 900 and height = 700, orientation = portrait 
+            --  yha upper wale me  
+                width pass , and orientation = landscape - fails , overall result = true
+                to upper OR condition h to vo  run kregi and color = blue kregi
+
+            -- but neeche wale me dekhte h
+                width fail , and orientation = landscape - pass
+                yha bhi OR condition h to overall result true hoga to ye wali bhi run  kregi
+                aur color = red kr degi 
+
+
+        yha dono hi shi h to last me jo execute ho rha h vo baki sb ko overwrite kr de rha h 
+*/
+
+
+@media screen and (max-width : 800px) , (orientation: landscape){
+    h1{
+        color: red;
+        font-size: 90px;
+    }
+}
+
