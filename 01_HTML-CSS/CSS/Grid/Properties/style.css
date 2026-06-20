@@ -1,0 +1,51 @@
+*{
+    margin : 0%;
+    padding : 0%;
+    box-sizing  : border-box;
+}
+
+
+
+/* Parent Property */
+#container{
+    background-color: white;
+    border: 1px solid black;
+    height: 90vh;
+
+    display: grid;
+    grid-template-columns: 200px 100px;   /* 2 columns form ho gye h 200px or 100px ke  */
+    grid-template-rows: 100px 150px 100px;  /* isme starting ke 3 rows ki height fix kr di gyi h */ 
+            /* ab main baat h ki baki ke elements ki height h vo pure vh me se jitna space rah gya h usme baki ke adjust ho rhe h */
+
+    /* yha columns 2 target kr rhe ho rows 3 to total targeted tmhare 6 hua means abhi bhi 4 automatically handle ho rhe h usko target krne ke liye hm auto ka use krte h */
+    grid-auto-rows: 100px; /* height */
+    grid-auto-flow: column; /* like flex direction*/
+    grid-auto-columns: 100px;
+    /* gap: 100px; */
+
+
+}
+
+
+div{    
+    border: 1px solid red;
+}
+
+
+#three{
+    background-color: aqua;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;  /* ye line 1 se 4 tk sb occupy kr lega */ 
+}
+
+#six{
+
+}
+
+#seven{
+    background-color: green;
+    grid-row: 2/3; /* row 2 se 3 */
+    grid-column: 3/5; /* column 3 se 5 */
+}
