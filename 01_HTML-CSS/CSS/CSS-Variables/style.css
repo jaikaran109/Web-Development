@@ -1,0 +1,27 @@
+*{
+    margin : 0%;
+    padding : 0%;
+    box-sizing  : border-box;
+}
+
+:root{
+    --laal-rang:red;
+    --neela-rang:blue;
+    --bada-size:100px;
+}
+
+
+h1{
+    color: var(--laal-rang);
+    font-size: var(--bada-size);
+}
+
+h2{
+    color: var(--neela-rang);
+    font-size: var(--bada-size);
+}
+
+p{
+    color: var(--laal-rang);
+    font-size: var(--bada-size);
+}
