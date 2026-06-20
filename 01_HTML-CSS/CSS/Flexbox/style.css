@@ -1,0 +1,81 @@
+*{
+    margin : 0%;
+    padding : 0%;
+    box-sizing  : border-box;
+}
+
+html,body{
+    height : 100%;
+    width : 100%;
+}
+
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid red;
+    margin: 10px;
+
+    /* display: inline-block;  -- ye children property h agr p,h1,h2 bhi hota to sbko ek ek kr ke dena pdta  */
+}
+
+
+
+/* Parent Property */
+
+section{
+    height: 90vh;
+    display: flex;
+    /* flex-wrap: wrap;        zoom kroge to last element next line pe aa jayega */
+
+    /* By default value of justify-content is flex-start */
+
+    /* justify-content: center;
+    justify-content: flex-start;
+    justify-content: flex-end;*/        /*flex-end or end me jyada diff nhi h dono similar h but jb RTL ki baat hoti h eg, maan li x = hello world , in arabic = مرحبا  -- flex-end = Flexbox ka end , end = Language/Text direction ka end */
+    
+    /* justify-content: space-around; -- isko tm ek bracelet ki tarah imagine kro ,from the output we can see that suppose the gap bw boxes is 20px then in starting and ending its 10px bcz when u form a ring by connecting 1 and 5 then all the spaces are same */
+
+    /* justify-content: space-between;  isme starting and ending wale corner pe chipak jate h aur sare space beech walo me divide ho jati h */
+
+    justify-content: space-evenly;  /* -- sari equal spacing lenge */
+
+
+    /* By default value of justify-content is stretch -- isko dekhne ke liye div se height hta do aur  */
+
+    /* align-items: flex-end; */
+    /* align-items: flex-start;     column wise same operations ho rhe h 
+    align-items: flex-end; */
+
+
+
+    /* itna krne ke baad agr tm display ki width km krte ho/ ya zoom krte ho to boxes column me to aayengi but gap jyada hoga usko fox krte ke liye align-content use krte h */
+
+    align-content: center;
+    /* gap: 50px; */
+
+
+
+}
+
+
+
+
+
+
+
+/* Children Property */
+#two{
+    /* flex-grow: 100;  -- ye jo extra space hota h usko occupy kr leta h (Imp - if 1 children pe hi bss apply ho rha h to tm value 1 rakho ya 100 same kaam krega but if 2 childrens pe perform ho rha h to ratio ke form  me kaam krtra h , ex two - 100 and four - 50 then it work on ratio of 2:1) */
+    flex-shrink: 5;  /* for this you have to first remove the flex wrap from the parent*/
+    background-color: red;
+    align-self: center;   /* ye particular box ko center me lekr aayega */
+}
+
+#four{
+    /* flex-grow: 50; */
+    flex-shrink: 2;  /*-- ye kitne speed se shrink hoga vo h , for this you have to first remove the flex wrap from the parent*/
+    background-color: rgb(21, 48, 4);
+    align-self: flex-end;  /* ye particular box ko end me lekr aayega */
+}
