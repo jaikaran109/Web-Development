@@ -1,0 +1,101 @@
+*{
+    margin : 0%;
+    padding : 0%;
+    box-sizing  : border-box;
+}
+
+
+
+
+section{
+    display: grid;
+    border: 5px solid black;
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    grid-template-rows: 1fr 4fr 4fr 1fr ;  /* rows =  pure display ke size ko inn fractions me divide kr dega */
+    grid-template-columns: 1fr 4fr 1fr ;       /* columns = pure display ke size ko inn fractions me divide kr dega */
+
+
+
+    /* Another way to make the same template by using area , ye puri screen ko areas me divide kr deta h jitna partitions(fraction)  me division hua hota h uske according*/
+    grid-template-areas: "header header header"   /* 4 rows the isiliye 4 quotes and 3 columns the isiliye 3 times fill kr rhe h */
+                         "nav1 main nav3"
+                         "nav2 main nav4"
+                         "footer footer footer";
+}
+
+
+.header{
+    background-color: rgb(227, 23, 54);
+    grid-area: header;
+    /* grid-row-start: 1; --  row 1 se 2 tk */
+    /* grid-row-end: 2; */
+    /* grid-row: 1/2; */
+    /* grid-column-start: 1; */
+    /* grid-column-end: 4;  ----  column 1 se 4 tk  - ye puri screen lega kyuki column ko 3 fractions me divide kiya h means lines 4 hongi */
+}
+
+.nav1{
+    background-color: rgb(210, 32, 186);
+    grid-area: nav1;
+    /* grid-row-start: 2; 
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2; */
+}
+
+.nav2{
+    background-color: rgb(22, 193, 122);
+    grid-area: nav2;
+    /* grid-row-start: 3; 
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2; */
+}
+
+.main{
+    background-color: rgb(241, 172, 241);
+    grid-area: main;
+    /* grid-row-start: 2; 
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3; */
+}
+
+.nav3{
+    background-color: rgb(147,22,193);
+    grid-area: nav3;
+    /* grid-row-start: 2; 
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4; */
+}
+
+
+.nav4{
+    background-color: rgb(22, 193, 122);
+    grid-area: nav4;
+    /* grid-row-start: 3; 
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4; */
+}
+
+
+.footer{
+    background-color: rgb(23, 35, 30);
+    grid-area: footer;
+    /* grid-row-start: 4; 
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4; */
+}
+
+
+
+.header,.nav1,.nav2,.nav3,.nav4,.footer{
+    border: 1px solid black;
+}
