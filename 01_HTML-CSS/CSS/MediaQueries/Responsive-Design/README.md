@@ -1,4 +1,4 @@
-# Responsive Design — Complete Guide (Zero to Mastery)
+# Responsive Design 
 
 > **"One website — every screen size."**
 
