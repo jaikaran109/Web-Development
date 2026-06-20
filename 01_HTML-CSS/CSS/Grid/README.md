@@ -1,4 +1,4 @@
-# CSS Grid — Complete Guide (Zero to Mastery)
+# CSS Grid — Complete Guide 
 
 CSS Grid ek **2-dimensional layout system** hai — ye **rows aur columns dono** ko ek saath control karne deta hai. Flexbox sirf **1 direction** (row YA column) mein achha kaam karta hai, lekin Grid tumhe **poora 2D grid** banake usme elements precisely place karne deta hai.
 
