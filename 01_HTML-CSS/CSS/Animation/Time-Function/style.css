@@ -1,0 +1,48 @@
+div{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+section{
+    border: 2px solid olive;
+}
+
+section:hover div{
+    animation-name: move;
+    animation-duration: 4s;
+    /* animation-direction: alternate;
+    animation-iteration-count: infinite; */
+}
+
+
+
+.div1{
+    animation-timing-function: linear;   /* linear = same speed */
+}
+.div2{
+    animation-timing-function: ease-in; /* ease-in = starting me slow , last me fast */
+}
+.div3{
+    animation-timing-function: ease-out;    /* ease-out = starting me fast , last me slow */
+}
+.div4{
+    animation-timing-function: ease-in-out; /* ease-in-out = starting and end me slow , middle me fast  */
+}
+
+
+@keyframes move {
+    0%{
+        width: 100px;
+    }
+    100%{
+        width: 90vw;
+    }
+    
+}
