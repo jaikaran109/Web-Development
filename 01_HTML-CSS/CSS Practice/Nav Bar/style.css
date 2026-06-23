@@ -1,0 +1,30 @@
+*{
+    margin : 0%;
+    padding : 0%;
+    box-sizing  : border-box;
+}
+
+html,body{
+    height : 100%;
+    width : 100%;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(91, 178, 246);
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin: 10px;
+}
