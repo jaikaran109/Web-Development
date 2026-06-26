@@ -1,0 +1,123 @@
+*{
+    margin : 0%;
+    padding : 0%;
+    box-sizing  : border-box;
+}
+
+html,body{
+    height : 100%;
+    width : 100%;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+nav ul{
+    display: flex;
+}
+
+nav>ul>li{
+    margin: 10px;
+}
+
+.submit{
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.sign{
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px 
+}
+
+
+main{
+    height: 40vh;
+    text-align: center;
+    background-color: aquamarine;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main h1{
+    font-size:60px;
+}
+
+main input{   
+    border: 0px;
+    margin: 10px auto;
+    width: 500px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px;
+}
+
+input:focus{
+    outline: none;
+    background-color: lightyellow;
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.class1 , .class2{ 
+    width: 50%;
+    margin: 40px;
+}
+
+.class1 h2 , .class2 h2{
+    margin : 20px 0;
+}
+
+.class1 a , .class2 a{
+    display: inline-block;
+    margin : 10px 0;
+}
+
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+}
+
+
+footer>li{
+    font-weight: lighter;
+}
+
+.foot1 , .foot2 , .foot3 , .foot4{
+    margin: 10px 0;
+}
+
+.copyright{
+    color: white;
+    width: 100%;
+    background-color: black;
+}
+
+.copyright p{
+    margin-left: 60vw;
+}
+
