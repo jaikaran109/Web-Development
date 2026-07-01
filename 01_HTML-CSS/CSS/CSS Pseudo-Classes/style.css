@@ -1,0 +1,53 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+
+.btn:link{   /* by default kya color hona chahiye */
+    color: green;
+    padding: 10px;
+}
+
+.btn:visited{  /* visite krne ke baad kya color hona chahiye*/
+    color: rgb(7, 216, 216);
+}
+
+.btn:hover{  /* hover krne pe konsa color hona chahiye */
+    color: red;
+}
+
+
+.btn:active{  /* jb tm btn pe click kroge / jb vo active hoga */
+    color: black;;
+    background-color: white;
+    border: 2px solid;
+}
+
+
+
+/* First Child */
+ul li:first-child{   /* it select the first element of both the ul - First Child */
+    background-color: plum;
+}
+
+
+
+/* Last Child */
+ul li:last-child{  /* select the last child */
+    background-color: red;
+}
+
+
+
+/* Nth Child */
+/* formula = an + b  */
+
+ul li:nth-child(3){
+    background-color: aqua;
+}
+
+
+/* Via Formula */
+/* ul li:nth-child(2n + 1){   // it select the odd positions - comment others and uncomment this for proper understanding  , for even only 2n
+    background-color: aquamarine;
+} */
