@@ -1,158 +1,110 @@
-# 🌐 Web Development Journey
+# Web Development Journey
 
-Welcome to my Web Development Repository! 🚀
-
-This repository contains my learning journey, practice code, notes, and projects covering modern web development technologies. The goal of this repository is to build a strong foundation in Frontend and Backend Development while creating real-world projects along the way.
+A structured, self-paced learning repository documenting my progress from web development fundamentals to advanced full-stack engineering. This repo serves as both a personal knowledge base and a public record of consistent, hands-on learning.
 
 ---
 
-## 📂 Repository Structure
+## Overview
 
-```text
-web-development
-│
-├── 01_HTML
-├── 02_CSS
-├── 03_JavaScript
-├── 04_React
-├── 05_NodeJS
-├── 06_MongoDB
-├── Projects
-├── Assets
-└── README.md
+This repository is organized as a topic-wise roadmap. Each directory corresponds to a specific stage of the learning path and contains notes, practice exercises, and small projects built while learning that topic. The structure is designed to keep progress transparent and easy to track over time.
+
+---
+
+## Repository Structure
+
+```
+web-dev-roadmap/
+├── 01_HTML-CSS/
+├── 02_JavaScript/
+├── 03_CSS-Frameworks/
+├── 04_React/
+├── 05_Git-GitHub/
+├── 06_Backend-NodeJS/
+├── 07_Authentication/
+├── 08_Database-SQL/
+├── 09_Database-MongoDB/
+├── 10_Fullstack-Projects/
+├── 11_Deployment/
+├── 12_TypeScript/
+├── 13_NextJS/
+├── 14_Testing/
+├── 15_Docker-CICD/
+├── 16_System-Design/
+└── 17_Advanced-Projects/
+```
+
+Each topic folder follows a consistent internal structure:
+
+```
+<topic>/
+├── notes.md      # Concept summaries and key takeaways
+├── practice/     # Small, focused code exercises
+└── projects/     # Applied mini-projects using the topic
 ```
 
 ---
 
-## 📖 Topics Covered
+## Roadmap
 
-### 🏗️ HTML
-- Basic Structure
-- Forms
-- Tables
-- Semantic Tags
-- Multimedia
-- Mini Projects
-
-### 🎨 CSS
-- Selectors
-- Box Model
-- Flexbox
-- Grid
-- Animations
-- Responsive Design
-- Media Queries
-
-### ⚡ JavaScript
-- Variables & Data Types
-- Functions
-- Arrays & Objects
-- DOM Manipulation
-- Events
-- ES6+
-- Async JavaScript
-- API Handling
-
-### ⚛️ React
-- Components
-- Props & State
-- Hooks
-- Routing
-- API Integration
-- Project Development
-
-### 🚀 Node.js
-- Express.js
-- REST APIs
-- Authentication
-- Middleware
-- Backend Development
-
-### 🍃 MongoDB
-- CRUD Operations
-- Mongoose
-- Database Integration
+| # | Module | Focus Area |
+|---|--------|-------------|
+| 01 | HTML & CSS | Semantic markup, box model, Flexbox, Grid, responsive design |
+| 02 | JavaScript | Core language, DOM manipulation, async programming, ES6+ |
+| 03 | CSS Frameworks | Bootstrap, Tailwind CSS |
+| 04 | React | Components, hooks, routing, state management |
+| 05 | Git & GitHub | Version control, branching strategy, collaboration workflow |
+| 06 | Backend (Node.js) | Server-side JavaScript, Express.js, REST API design |
+| 07 | Authentication | JWT, password hashing, session handling |
+| 08 | SQL Databases | Relational data modeling (PostgreSQL / MySQL) |
+| 09 | MongoDB | NoSQL data modeling, Mongoose ODM |
+| 10 | Fullstack Projects | End-to-end MERN stack applications |
+| 11 | Deployment | Vercel, Netlify, Render, MongoDB Atlas |
+| 12 | TypeScript | Static typing for JavaScript applications |
+| 13 | Next.js | Server-side rendering, static generation |
+| 14 | Testing | Unit and integration testing (Jest, RTL) |
+| 15 | Docker & CI/CD | Containerization and deployment pipelines |
+| 16 | System Design | Scalability principles, architectural patterns |
+| 17 | Advanced Projects | Production-grade, portfolio-level applications |
 
 ---
 
-## 💻 Projects
+## Progress
 
-This repository also includes hands-on projects such as:
-
-- 🛒 Amazon Clone
-- 🎬 Netflix Clone
-- 🌦️ Weather App
-- ✅ Todo App
-- 🧮 Calculator
-- 👨‍💻 Portfolio Website
-- 📝 Blog Website
-
-More projects will be added as I continue learning.
-
----
-
-## 🎯 Goals
-
-- Strengthen Frontend Development Skills
-- Learn Backend Development
-- Build Full Stack Applications
-- Improve Problem Solving
-- Create Industry-Level Projects
-- Maintain Consistent GitHub Contributions
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- React.js
-
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- MongoDB
-
-### Tools
-- Git
-- GitHub
-- VS Code
-- Postman
-
----
-
-## 📈 Progress
-
-- [x] HTML
-- [x] CSS Basics
-- [x] JavaScript Basics
-- [ ] Advanced JavaScript
+- [x] HTML & CSS
+- [x] JavaScript
+- [ ] CSS Frameworks
 - [ ] React
-- [ ] Node.js
+- [ ] Git & GitHub
+- [ ] Backend (Node.js)
+- [ ] Authentication
+- [ ] SQL Databases
 - [ ] MongoDB
-- [ ] Full Stack Projects
+- [ ] Fullstack Projects
+- [ ] Deployment
+- [ ] TypeScript
+- [ ] Next.js
+- [ ] Testing
+- [ ] Docker & CI/CD
+- [ ] System Design
+- [ ] Advanced Projects
 
 ---
 
-## 🤝 Contributing
+## Tech Stack
 
-Suggestions and improvements are always welcome.
-Feel free to fork this repository and submit a pull request.
-
----
-
-## ⭐ Support
-
-If you find this repository useful, consider giving it a star ⭐.
+**Languages:** HTML, CSS, JavaScript, TypeScript
+**Frameworks/Libraries:** React, Next.js, Bootstrap, Tailwind CSS, Express.js
+**Databases:** MongoDB, PostgreSQL/MySQL
+**Tools:** Git, GitHub, Docker, Vercel, Render
 
 ---
 
-### 👨‍💻 Author
+## Purpose
 
-**Jai Karan**
+The objective of this repository is to build production-ready, full-stack development skills through consistent, project-based learning — with every commit reflecting measurable progress toward that goal.
 
-Building projects, learning consistently, and growing as a developer 🚀
+---
+
+## Connect
+
+Suggestions, feedback, and discussions are welcome via issues or pull requests.
