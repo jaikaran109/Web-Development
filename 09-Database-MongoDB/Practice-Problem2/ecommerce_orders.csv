@@ -1,0 +1,76 @@
+order_id,customer_name,email,city,product_name,category,price_per_unit,quantity,total_amount,order_date,payment_status
+ORD001,Rahul Joshi,user1@example.com,Pune,Monitor,Electronics,15000,1,15000,2024-08-05,Paid
+ORD002,Anjali Mehta,user2@example.com,Delhi,Office Chair,Furniture,8000,2,16000,2024-10-28,Paid
+ORD003,Karan Mehta,user3@example.com,Pune,Monitor,Electronics,15000,1,15000,2024-08-11,Paid
+ORD004,Anjali Verma,user4@example.com,Chennai,Headphones,Accessories,2000,1,2000,2024-12-14,Pending
+ORD005,Priya Joshi,user5@example.com,Pune,Monitor,Electronics,15000,3,45000,2024-09-05,Pending
+ORD006,Priya Kapoor,user6@example.com,Delhi,Smartphone,Electronics,25000,1,25000,2024-03-23,Pending
+ORD007,Karan Gupta,user7@example.com,Chennai,Monitor,Electronics,15000,4,60000,2024-01-15,Paid
+ORD008,Rohan Sharma,user8@example.com,Chennai,Keyboard,Accessories,1200,2,2400,2024-06-15,Paid
+ORD009,Sneha Singh,user9@example.com,Mumbai,Keyboard,Accessories,1200,1,1200,2024-09-24,Paid
+ORD010,Vikram Patel,user10@example.com,Chennai,Office Chair,Furniture,8000,3,24000,2024-02-14,Cancelled
+ORD011,Anjali Verma,user11@example.com,Ahmedabad,Monitor,Electronics,15000,2,30000,2024-07-24,Cancelled
+ORD012,Anjali Gupta,user12@example.com,Ahmedabad,Smartphone,Electronics,25000,4,100000,2024-09-14,Pending
+ORD013,Rohan Mehta,user13@example.com,Hyderabad,Office Chair,Furniture,8000,1,8000,2024-04-01,Paid
+ORD014,Karan Gupta,user14@example.com,Mumbai,Keyboard,Accessories,1200,1,1200,2024-02-13,Cancelled
+ORD015,Rahul Singh,user15@example.com,Delhi,Smartphone,Electronics,25000,5,125000,2024-08-26,Pending
+ORD016,Rahul Nair,user16@example.com,Hyderabad,Keyboard,Accessories,1200,3,3600,2024-02-11,Cancelled
+ORD017,Sneha Sharma,user17@example.com,Bangalore,Smartphone,Electronics,25000,5,125000,2024-11-02,Pending
+ORD018,Sneha Joshi,user18@example.com,Bangalore,Backpack,Travel,1500,4,6000,2024-04-08,Paid
+ORD019,Vikram Nair,user19@example.com,Pune,Smartphone,Electronics,25000,2,50000,2024-09-20,Paid
+ORD020,Anjali Reddy,user20@example.com,Bangalore,Keyboard,Accessories,1200,3,3600,2024-09-24,Cancelled
+ORD021,Rahul Patel,user21@example.com,Ahmedabad,Smartphone,Electronics,25000,3,75000,2024-04-02,Paid
+ORD022,Sneha Singh,user22@example.com,Chennai,Smartphone,Electronics,25000,1,25000,2024-03-23,Pending
+ORD023,Sneha Patel,user23@example.com,Kolkata,Smartphone,Electronics,25000,5,125000,2024-12-15,Pending
+ORD024,Pooja Singh,user24@example.com,Pune,Laptop,Electronics,65000,1,65000,2024-01-14,Cancelled
+ORD025,Neha Sharma,user25@example.com,Mumbai,Tablet,Electronics,30000,2,60000,2024-09-12,Pending
+ORD026,Sneha Patel,user26@example.com,Chennai,Laptop,Electronics,65000,3,195000,2024-05-24,Paid
+ORD027,Rahul Kapoor,user27@example.com,Bangalore,Backpack,Travel,1500,4,6000,2024-08-17,Cancelled
+ORD028,Karan Singh,user28@example.com,Ahmedabad,Backpack,Travel,1500,2,3000,2024-07-04,Cancelled
+ORD029,Vikram Verma,user29@example.com,Ahmedabad,Backpack,Travel,1500,5,7500,2024-12-16,Pending
+ORD030,Vikram Gupta,user30@example.com,Mumbai,Headphones,Accessories,2000,4,8000,2024-03-03,Pending
+ORD031,Neha Verma,user31@example.com,Ahmedabad,Backpack,Travel,1500,2,3000,2024-04-12,Cancelled
+ORD032,Rahul Kapoor,user32@example.com,Mumbai,Smartphone,Electronics,25000,1,25000,2024-01-15,Paid
+ORD033,Amit Patel,user33@example.com,Pune,Monitor,Electronics,15000,4,60000,2024-07-07,Paid
+ORD034,Vikram Kapoor,user34@example.com,Kolkata,Backpack,Travel,1500,3,4500,2024-11-07,Cancelled
+ORD035,Karan Reddy,user35@example.com,Chennai,Smartphone,Electronics,25000,1,25000,2024-11-02,Paid
+ORD036,Priya Mehta,user36@example.com,Mumbai,Laptop,Electronics,65000,2,130000,2024-10-14,Paid
+ORD037,Neha Nair,user37@example.com,Bangalore,Monitor,Electronics,15000,3,45000,2024-05-13,Pending
+ORD038,Karan Singh,user38@example.com,Pune,Monitor,Electronics,15000,4,60000,2024-09-14,Cancelled
+ORD039,Pooja Joshi,user39@example.com,Delhi,Backpack,Travel,1500,2,3000,2024-03-15,Cancelled
+ORD040,Sneha Patel,user40@example.com,Chennai,Office Chair,Furniture,8000,3,24000,2024-04-29,Pending
+ORD041,Priya Joshi,user41@example.com,Ahmedabad,Smartphone,Electronics,25000,4,100000,2024-06-18,Pending
+ORD042,Pooja Singh,user42@example.com,Kolkata,Headphones,Accessories,2000,4,8000,2024-11-15,Paid
+ORD043,Priya Kapoor,user43@example.com,Ahmedabad,Laptop,Electronics,65000,1,65000,2024-09-28,Paid
+ORD044,Rahul Mehta,user44@example.com,Kolkata,Laptop,Electronics,65000,4,260000,2024-12-05,Cancelled
+ORD045,Rahul Nair,user45@example.com,Bangalore,Tablet,Electronics,30000,3,90000,2024-10-19,Paid
+ORD046,Sneha Nair,user46@example.com,Chennai,Smartphone,Electronics,25000,1,25000,2024-09-21,Pending
+ORD047,Pooja Patel,user47@example.com,Chennai,Office Chair,Furniture,8000,2,16000,2024-04-18,Cancelled
+ORD048,Karan Sharma,user48@example.com,Pune,Monitor,Electronics,15000,4,60000,2024-06-24,Cancelled
+ORD049,Vikram Patel,user49@example.com,Delhi,Smartphone,Electronics,25000,4,100000,2024-11-17,Pending
+ORD050,Rahul Gupta,user50@example.com,Ahmedabad,Office Chair,Furniture,8000,2,16000,2024-07-30,Paid
+ORD051,Anjali Joshi,user51@example.com,Chennai,Backpack,Travel,1500,4,6000,2024-07-07,Pending
+ORD052,Vikram Gupta,user52@example.com,Mumbai,Smartphone,Electronics,25000,4,100000,2024-01-13,Cancelled
+ORD053,Pooja Nair,user53@example.com,Chennai,Tablet,Electronics,30000,2,60000,2024-03-20,Paid
+ORD054,Rohan Singh,user54@example.com,Chennai,Office Chair,Furniture,8000,3,24000,2024-02-08,Cancelled
+ORD055,Anjali Nair,user55@example.com,Pune,Laptop,Electronics,65000,5,325000,2024-05-08,Cancelled
+ORD056,Amit Gupta,user56@example.com,Ahmedabad,Keyboard,Accessories,1200,3,3600,2024-04-29,Paid
+ORD057,Karan Patel,user57@example.com,Ahmedabad,Laptop,Electronics,65000,5,325000,2024-08-15,Cancelled
+ORD058,Vikram Mehta,user58@example.com,Hyderabad,Headphones,Accessories,2000,2,4000,2024-05-25,Paid
+ORD059,Karan Reddy,user59@example.com,Kolkata,Backpack,Travel,1500,5,7500,2024-07-25,Paid
+ORD060,Neha Kapoor,user60@example.com,Ahmedabad,Tablet,Electronics,30000,4,120000,2024-09-17,Paid
+ORD061,Vikram Verma,user61@example.com,Pune,Keyboard,Accessories,1200,1,1200,2024-02-22,Pending
+ORD062,Priya Reddy,user62@example.com,Mumbai,Laptop,Electronics,65000,3,195000,2024-09-04,Paid
+ORD063,Neha Nair,user63@example.com,Bangalore,Tablet,Electronics,30000,5,150000,2024-10-31,Paid
+ORD064,Vikram Patel,user64@example.com,Mumbai,Laptop,Electronics,65000,5,325000,2024-04-25,Paid
+ORD065,Rahul Sharma,user65@example.com,Mumbai,Monitor,Electronics,15000,2,30000,2024-07-31,Pending
+ORD066,Vikram Mehta,user66@example.com,Kolkata,Tablet,Electronics,30000,4,120000,2024-01-03,Pending
+ORD067,Karan Nair,user67@example.com,Pune,Laptop,Electronics,65000,5,325000,2024-10-21,Paid
+ORD068,Rahul Reddy,user68@example.com,Kolkata,Backpack,Travel,1500,3,4500,2024-08-17,Cancelled
+ORD069,Sneha Reddy,user69@example.com,Ahmedabad,Smartphone,Electronics,25000,3,75000,2024-01-17,Cancelled
+ORD070,Amit Reddy,user70@example.com,Hyderabad,Smartphone,Electronics,25000,4,100000,2024-06-08,Paid
+ORD071,Vikram Kapoor,user71@example.com,Hyderabad,Keyboard,Accessories,1200,2,2400,2024-05-04,Pending
+ORD072,Karan Singh,user72@example.com,Hyderabad,Backpack,Travel,1500,1,1500,2024-08-18,Paid
+ORD073,Karan Verma,user73@example.com,Bangalore,Headphones,Accessories,2000,4,8000,2024-02-07,Paid
+ORD074,Vikram Sharma,user74@example.com,Hyderabad,Keyboard,Accessories,1200,1,1200,2024-11-17,Paid
+ORD075,Karan Sharma,user75@example.com,Kolkata,Keyboard,Accessories,1200,2,2400,2024-03-01,Pending
