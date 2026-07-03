@@ -1,0 +1,802 @@
+[
+    {
+        "inventory_id": "INV001",
+        "product_name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "stock_quantity": 163,
+        "reorder_level": 15,
+        "warehouse_location": "Warehouse-4",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-10-02",
+        "cost_price": 19617,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV002",
+        "product_name": "Gaming Laptop",
+        "category": "Electronics",
+        "stock_quantity": 193,
+        "reorder_level": 7,
+        "warehouse_location": "Warehouse-4",
+        "supplier": {
+            "supplier_id": "SUP001",
+            "name": "TechSource Pvt Ltd",
+            "country": "India"
+        },
+        "last_restock_date": "2024-09-19",
+        "cost_price": 26127,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV003",
+        "product_name": "Smartwatch",
+        "category": "Wearables",
+        "stock_quantity": 77,
+        "reorder_level": 7,
+        "warehouse_location": "Warehouse-1",
+        "supplier": {
+            "supplier_id": "SUP002",
+            "name": "Global Gadgets Co",
+            "country": "Singapore"
+        },
+        "last_restock_date": "2024-12-02",
+        "cost_price": 15262,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV004",
+        "product_name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "stock_quantity": 13,
+        "reorder_level": 17,
+        "warehouse_location": "Warehouse-1",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-08-23",
+        "cost_price": 27386,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV005",
+        "product_name": "4K Monitor",
+        "category": "Electronics",
+        "stock_quantity": 135,
+        "reorder_level": 18,
+        "warehouse_location": "Warehouse-4",
+        "supplier": {
+            "supplier_id": "SUP004",
+            "name": "NextGen Supplies",
+            "country": "Germany"
+        },
+        "last_restock_date": "2024-07-20",
+        "cost_price": 26138,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV006",
+        "product_name": "Bluetooth Speaker",
+        "category": "Audio",
+        "stock_quantity": 145,
+        "reorder_level": 10,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-11-23",
+        "cost_price": 23560,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV007",
+        "product_name": "Smartwatch",
+        "category": "Wearables",
+        "stock_quantity": 121,
+        "reorder_level": 19,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP004",
+            "name": "NextGen Supplies",
+            "country": "Germany"
+        },
+        "last_restock_date": "2024-11-15",
+        "cost_price": 69183,
+        "is_active": false
+    },
+    {
+        "inventory_id": "INV008",
+        "product_name": "Gaming Laptop",
+        "category": "Electronics",
+        "stock_quantity": 98,
+        "reorder_level": 7,
+        "warehouse_location": "Warehouse-2",
+        "supplier": {
+            "supplier_id": "SUP002",
+            "name": "Global Gadgets Co",
+            "country": "Singapore"
+        },
+        "last_restock_date": "2024-07-03",
+        "cost_price": 32559,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV009",
+        "product_name": "Bluetooth Speaker",
+        "category": "Audio",
+        "stock_quantity": 139,
+        "reorder_level": 11,
+        "warehouse_location": "Warehouse-1",
+        "supplier": {
+            "supplier_id": "SUP002",
+            "name": "Global Gadgets Co",
+            "country": "Singapore"
+        },
+        "last_restock_date": "2024-11-13",
+        "cost_price": 16129,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV010",
+        "product_name": "Ergonomic Chair",
+        "category": "Furniture",
+        "stock_quantity": 67,
+        "reorder_level": 7,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP001",
+            "name": "TechSource Pvt Ltd",
+            "country": "India"
+        },
+        "last_restock_date": "2024-07-09",
+        "cost_price": 63602,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV011",
+        "product_name": "Bluetooth Speaker",
+        "category": "Audio",
+        "stock_quantity": 39,
+        "reorder_level": 14,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-10-03",
+        "cost_price": 9415,
+        "is_active": false
+    },
+    {
+        "inventory_id": "INV012",
+        "product_name": "Gaming Laptop",
+        "category": "Electronics",
+        "stock_quantity": 200,
+        "reorder_level": 9,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP004",
+            "name": "NextGen Supplies",
+            "country": "Germany"
+        },
+        "last_restock_date": "2024-10-15",
+        "cost_price": 65066,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV013",
+        "product_name": "Ergonomic Chair",
+        "category": "Furniture",
+        "stock_quantity": 34,
+        "reorder_level": 10,
+        "warehouse_location": "Warehouse-2",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-12-16",
+        "cost_price": 49411,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV014",
+        "product_name": "Gaming Laptop",
+        "category": "Electronics",
+        "stock_quantity": 198,
+        "reorder_level": 9,
+        "warehouse_location": "Warehouse-4",
+        "supplier": {
+            "supplier_id": "SUP002",
+            "name": "Global Gadgets Co",
+            "country": "Singapore"
+        },
+        "last_restock_date": "2024-11-10",
+        "cost_price": 20951,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV015",
+        "product_name": "4K Monitor",
+        "category": "Electronics",
+        "stock_quantity": 136,
+        "reorder_level": 18,
+        "warehouse_location": "Warehouse-3",
+        "supplier": {
+            "supplier_id": "SUP001",
+            "name": "TechSource Pvt Ltd",
+            "country": "India"
+        },
+        "last_restock_date": "2024-10-23",
+        "cost_price": 39920,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV016",
+        "product_name": "Smartwatch",
+        "category": "Wearables",
+        "stock_quantity": 167,
+        "reorder_level": 6,
+        "warehouse_location": "Warehouse-1",
+        "supplier": {
+            "supplier_id": "SUP002",
+            "name": "Global Gadgets Co",
+            "country": "Singapore"
+        },
+        "last_restock_date": "2024-10-26",
+        "cost_price": 66276,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV017",
+        "product_name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "stock_quantity": 93,
+        "reorder_level": 10,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP001",
+            "name": "TechSource Pvt Ltd",
+            "country": "India"
+        },
+        "last_restock_date": "2024-06-15",
+        "cost_price": 5016,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV018",
+        "product_name": "Smartwatch",
+        "category": "Wearables",
+        "stock_quantity": 89,
+        "reorder_level": 8,
+        "warehouse_location": "Warehouse-3",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-08-26",
+        "cost_price": 14365,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV019",
+        "product_name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "stock_quantity": 183,
+        "reorder_level": 15,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP004",
+            "name": "NextGen Supplies",
+            "country": "Germany"
+        },
+        "last_restock_date": "2024-06-20",
+        "cost_price": 51024,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV020",
+        "product_name": "Ergonomic Chair",
+        "category": "Furniture",
+        "stock_quantity": 107,
+        "reorder_level": 8,
+        "warehouse_location": "Warehouse-3",
+        "supplier": {
+            "supplier_id": "SUP001",
+            "name": "TechSource Pvt Ltd",
+            "country": "India"
+        },
+        "last_restock_date": "2024-08-19",
+        "cost_price": 51399,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV021",
+        "product_name": "Bluetooth Speaker",
+        "category": "Audio",
+        "stock_quantity": 116,
+        "reorder_level": 9,
+        "warehouse_location": "Warehouse-3",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-08-28",
+        "cost_price": 9098,
+        "is_active": false
+    },
+    {
+        "inventory_id": "INV022",
+        "product_name": "Ergonomic Chair",
+        "category": "Furniture",
+        "stock_quantity": 63,
+        "reorder_level": 13,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-10-18",
+        "cost_price": 33303,
+        "is_active": false
+    },
+    {
+        "inventory_id": "INV023",
+        "product_name": "Ergonomic Chair",
+        "category": "Furniture",
+        "stock_quantity": 159,
+        "reorder_level": 18,
+        "warehouse_location": "Warehouse-2",
+        "supplier": {
+            "supplier_id": "SUP004",
+            "name": "NextGen Supplies",
+            "country": "Germany"
+        },
+        "last_restock_date": "2024-09-26",
+        "cost_price": 30874,
+        "is_active": false
+    },
+    {
+        "inventory_id": "INV024",
+        "product_name": "Smartwatch",
+        "category": "Wearables",
+        "stock_quantity": 117,
+        "reorder_level": 8,
+        "warehouse_location": "Warehouse-2",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-10-30",
+        "cost_price": 21310,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV025",
+        "product_name": "Smartwatch",
+        "category": "Wearables",
+        "stock_quantity": 51,
+        "reorder_level": 16,
+        "warehouse_location": "Warehouse-4",
+        "supplier": {
+            "supplier_id": "SUP002",
+            "name": "Global Gadgets Co",
+            "country": "Singapore"
+        },
+        "last_restock_date": "2024-08-08",
+        "cost_price": 2085,
+        "is_active": false
+    },
+    {
+        "inventory_id": "INV026",
+        "product_name": "Ergonomic Chair",
+        "category": "Furniture",
+        "stock_quantity": 103,
+        "reorder_level": 10,
+        "warehouse_location": "Warehouse-1",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-10-13",
+        "cost_price": 18285,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV027",
+        "product_name": "Wireless Mouse",
+        "category": "Accessories",
+        "stock_quantity": 127,
+        "reorder_level": 17,
+        "warehouse_location": "Warehouse-4",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-06-15",
+        "cost_price": 26359,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV028",
+        "product_name": "Bluetooth Speaker",
+        "category": "Audio",
+        "stock_quantity": 51,
+        "reorder_level": 9,
+        "warehouse_location": "Warehouse-4",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-06-21",
+        "cost_price": 38347,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV029",
+        "product_name": "Ergonomic Chair",
+        "category": "Furniture",
+        "stock_quantity": 172,
+        "reorder_level": 5,
+        "warehouse_location": "Warehouse-1",
+        "supplier": {
+            "supplier_id": "SUP004",
+            "name": "NextGen Supplies",
+            "country": "Germany"
+        },
+        "last_restock_date": "2024-08-17",
+        "cost_price": 8190,
+        "is_active": false
+    },
+    {
+        "inventory_id": "INV030",
+        "product_name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "stock_quantity": 131,
+        "reorder_level": 11,
+        "warehouse_location": "Warehouse-2",
+        "supplier": {
+            "supplier_id": "SUP002",
+            "name": "Global Gadgets Co",
+            "country": "Singapore"
+        },
+        "last_restock_date": "2024-08-23",
+        "cost_price": 33061,
+        "is_active": false
+    },
+    {
+        "inventory_id": "INV031",
+        "product_name": "Smartwatch",
+        "category": "Wearables",
+        "stock_quantity": 55,
+        "reorder_level": 12,
+        "warehouse_location": "Warehouse-2",
+        "supplier": {
+            "supplier_id": "SUP001",
+            "name": "TechSource Pvt Ltd",
+            "country": "India"
+        },
+        "last_restock_date": "2024-07-30",
+        "cost_price": 19723,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV032",
+        "product_name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "stock_quantity": 34,
+        "reorder_level": 9,
+        "warehouse_location": "Warehouse-2",
+        "supplier": {
+            "supplier_id": "SUP004",
+            "name": "NextGen Supplies",
+            "country": "Germany"
+        },
+        "last_restock_date": "2024-06-28",
+        "cost_price": 7244,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV033",
+        "product_name": "Smartwatch",
+        "category": "Wearables",
+        "stock_quantity": 137,
+        "reorder_level": 18,
+        "warehouse_location": "Warehouse-4",
+        "supplier": {
+            "supplier_id": "SUP004",
+            "name": "NextGen Supplies",
+            "country": "Germany"
+        },
+        "last_restock_date": "2024-07-22",
+        "cost_price": 20881,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV034",
+        "product_name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "stock_quantity": 118,
+        "reorder_level": 8,
+        "warehouse_location": "Warehouse-1",
+        "supplier": {
+            "supplier_id": "SUP002",
+            "name": "Global Gadgets Co",
+            "country": "Singapore"
+        },
+        "last_restock_date": "2024-11-05",
+        "cost_price": 36876,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV035",
+        "product_name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "stock_quantity": 199,
+        "reorder_level": 7,
+        "warehouse_location": "Warehouse-3",
+        "supplier": {
+            "supplier_id": "SUP002",
+            "name": "Global Gadgets Co",
+            "country": "Singapore"
+        },
+        "last_restock_date": "2024-10-02",
+        "cost_price": 59076,
+        "is_active": false
+    },
+    {
+        "inventory_id": "INV036",
+        "product_name": "4K Monitor",
+        "category": "Electronics",
+        "stock_quantity": 51,
+        "reorder_level": 5,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-07-21",
+        "cost_price": 27700,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV037",
+        "product_name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "stock_quantity": 87,
+        "reorder_level": 12,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-10-01",
+        "cost_price": 60800,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV038",
+        "product_name": "Wireless Mouse",
+        "category": "Accessories",
+        "stock_quantity": 128,
+        "reorder_level": 9,
+        "warehouse_location": "Warehouse-3",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-06-14",
+        "cost_price": 24556,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV039",
+        "product_name": "Wireless Mouse",
+        "category": "Accessories",
+        "stock_quantity": 32,
+        "reorder_level": 9,
+        "warehouse_location": "Warehouse-3",
+        "supplier": {
+            "supplier_id": "SUP004",
+            "name": "NextGen Supplies",
+            "country": "Germany"
+        },
+        "last_restock_date": "2024-10-31",
+        "cost_price": 31779,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV040",
+        "product_name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "stock_quantity": 167,
+        "reorder_level": 14,
+        "warehouse_location": "Warehouse-1",
+        "supplier": {
+            "supplier_id": "SUP001",
+            "name": "TechSource Pvt Ltd",
+            "country": "India"
+        },
+        "last_restock_date": "2024-10-30",
+        "cost_price": 7883,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV041",
+        "product_name": "Gaming Laptop",
+        "category": "Electronics",
+        "stock_quantity": 149,
+        "reorder_level": 14,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP002",
+            "name": "Global Gadgets Co",
+            "country": "Singapore"
+        },
+        "last_restock_date": "2024-06-18",
+        "cost_price": 44056,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV042",
+        "product_name": "4K Monitor",
+        "category": "Electronics",
+        "stock_quantity": 169,
+        "reorder_level": 13,
+        "warehouse_location": "Warehouse-3",
+        "supplier": {
+            "supplier_id": "SUP002",
+            "name": "Global Gadgets Co",
+            "country": "Singapore"
+        },
+        "last_restock_date": "2024-09-18",
+        "cost_price": 22648,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV043",
+        "product_name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "stock_quantity": 25,
+        "reorder_level": 13,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP001",
+            "name": "TechSource Pvt Ltd",
+            "country": "India"
+        },
+        "last_restock_date": "2024-06-16",
+        "cost_price": 13125,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV044",
+        "product_name": "Gaming Laptop",
+        "category": "Electronics",
+        "stock_quantity": 180,
+        "reorder_level": 20,
+        "warehouse_location": "Warehouse-2",
+        "supplier": {
+            "supplier_id": "SUP001",
+            "name": "TechSource Pvt Ltd",
+            "country": "India"
+        },
+        "last_restock_date": "2024-11-14",
+        "cost_price": 36423,
+        "is_active": false
+    },
+    {
+        "inventory_id": "INV045",
+        "product_name": "Gaming Laptop",
+        "category": "Electronics",
+        "stock_quantity": 66,
+        "reorder_level": 12,
+        "warehouse_location": "Warehouse-2",
+        "supplier": {
+            "supplier_id": "SUP001",
+            "name": "TechSource Pvt Ltd",
+            "country": "India"
+        },
+        "last_restock_date": "2024-08-30",
+        "cost_price": 8459,
+        "is_active": false
+    },
+    {
+        "inventory_id": "INV046",
+        "product_name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "stock_quantity": 179,
+        "reorder_level": 5,
+        "warehouse_location": "Warehouse-3",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-06-11",
+        "cost_price": 65814,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV047",
+        "product_name": "Bluetooth Speaker",
+        "category": "Audio",
+        "stock_quantity": 138,
+        "reorder_level": 20,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP001",
+            "name": "TechSource Pvt Ltd",
+            "country": "India"
+        },
+        "last_restock_date": "2024-10-17",
+        "cost_price": 7214,
+        "is_active": false
+    },
+    {
+        "inventory_id": "INV048",
+        "product_name": "Smartwatch",
+        "category": "Wearables",
+        "stock_quantity": 147,
+        "reorder_level": 9,
+        "warehouse_location": "Warehouse-2",
+        "supplier": {
+            "supplier_id": "SUP003",
+            "name": "Urban Retailers",
+            "country": "UAE"
+        },
+        "last_restock_date": "2024-12-04",
+        "cost_price": 53914,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV049",
+        "product_name": "4K Monitor",
+        "category": "Electronics",
+        "stock_quantity": 188,
+        "reorder_level": 19,
+        "warehouse_location": "Warehouse-5",
+        "supplier": {
+            "supplier_id": "SUP004",
+            "name": "NextGen Supplies",
+            "country": "Germany"
+        },
+        "last_restock_date": "2024-10-22",
+        "cost_price": 45840,
+        "is_active": true
+    },
+    {
+        "inventory_id": "INV050",
+        "product_name": "Wireless Mouse",
+        "category": "Accessories",
+        "stock_quantity": 43,
+        "reorder_level": 11,
+        "warehouse_location": "Warehouse-3",
+        "supplier": {
+            "supplier_id": "SUP002",
+            "name": "Global Gadgets Co",
+            "country": "Singapore"
+        },
+        "last_restock_date": "2024-07-25",
+        "cost_price": 11999,
+        "is_active": true
+    }
+]
