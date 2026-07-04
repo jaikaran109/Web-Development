@@ -1,0 +1,16 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "its an basic pakage of HelloWorld",
+  "license": "ISC",
+  "author": "jaikaran",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@angular/cli": "^22.0.5",
+    "express": "^5.2.1"
+  }
+}
