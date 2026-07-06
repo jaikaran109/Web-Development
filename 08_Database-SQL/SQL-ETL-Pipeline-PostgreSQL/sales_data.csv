@@ -1,0 +1,9 @@
+order_id,product,price,quantity,city
+101,Laptop,50000,1,Delhi
+102,Phone,20000,2,Mumbai
+103,Tablet,30000,1,Delhi
+104,Headphones,2000,3,Bangalore
+105,Phone,20000,1,Mumbai
+106,Laptop,50000,1,Delhi
+107,Tablet,30000,2,Bangalore
+108,Phone,20000,1,Delhi
