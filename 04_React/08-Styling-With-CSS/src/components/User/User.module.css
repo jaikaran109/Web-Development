@@ -1,0 +1,13 @@
+.btn{
+    background-color: rgb(160, 109, 160);
+    color: white;
+    font-weight: 700;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.user{
+    background-color: aqua;
+    padding: 10px;
+}
