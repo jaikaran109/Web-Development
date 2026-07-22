@@ -1,510 +1,671 @@
-# React `useEffect` Hook
+# Tailwind CSS Complete Beginner Notes
 
-`useEffect` is a React Hook used to perform **side effects** in functional components.
-
-Side effects means those tasks which are not directly related to returning JSX/UI, but they affect something outside the component.
-
-Examples:
-
-```txt
-API calling
-Fetching data from backend
-Setting document title
-Using timers
-Adding event listeners
-Working with localStorage
-```
+> Beginner-friendly notes covering the most frequently used Tailwind CSS classes with examples.
 
 ---
 
-## Simple Meaning
+# What is Tailwind CSS?
 
-`useEffect` runs after the component renders.
-
-React first shows the UI, then `useEffect` runs the extra work.
+Tailwind CSS is a **utility-first CSS framework** that lets you style websites directly using predefined classes without writing custom CSS.
 
 Example:
 
-```txt
-Component render hua
-↓
-UI screen par show hua
-↓
-useEffect run hua
-↓
-API call / timer / side effect execute hua
+```html
+<h1 class="text-red-500 text-4xl font-bold">
+    Hello Tailwind
+</h1>
 ```
 
 ---
 
-## Important Point
+# Why Tailwind?
 
-`useEffect` does not directly mean asynchronous code.
+- Faster Development
+- No custom CSS for most designs
+- Highly Responsive
+- Easy to Maintain
+- Mobile First
+- Utility Classes
 
-But mostly we use it for tasks like API calling, which are asynchronous.
+---
 
-Simple line:
+# Installation (CLI)
 
-```txt
-useEffect component ke render hone ke baad side effects run karne ke liye use hota hai.
+```bash
+npm install tailwindcss @tailwindcss/cli
+```
+
+Create input file
+
+```css
+@import "tailwindcss";
+```
+
+Run Tailwind
+
+```bash
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 ```
 
 ---
 
-## Import Syntax
+# Linking CSS
 
-```jsx
-import { useEffect } from "react";
-```
-
-If using state also:
-
-```jsx
-import { useState, useEffect } from "react";
+```html
+<link rel="stylesheet" href="output.css">
 ```
 
 ---
 
-## Basic Syntax
+# Background Colors
 
-```jsx
-useEffect(() => {
-  // code here
-}, []);
-```
+Used to change background color.
 
-Example:
+```html
+bg-red-500
 
-```jsx
-useEffect(() => {
-  console.log("Component rendered");
-}, []);
-```
+bg-green-500
 
----
+bg-blue-500
 
-# Dependency Array
+bg-black
 
-The second argument of `useEffect` is called the **dependency array**.
-
-```jsx
-useEffect(() => {
-  // effect code
-}, [dependency]);
-```
-
-Dependency array decides **when useEffect will run**.
-
----
-
-## 1. Empty Dependency Array `[]`
-
-```jsx
-useEffect(() => {
-  console.log("Runs only once");
-}, []);
-```
-
-### Meaning
-
-This runs only one time when the component first loads.
-
-Use case:
-
-```txt
-API call on page load
-Initial data fetching
-```
-
-Example:
-
-```jsx
-useEffect(() => {
-  getData();
-}, []);
+bg-white
 ```
 
 ---
 
-## 2. No Dependency Array
+# Text Color
 
-```jsx
-useEffect(() => {
-  console.log("Runs after every render");
-});
-```
+Changes text color.
 
-### Meaning
+```html
+text-white
 
-This runs after every render.
+text-red-500
 
-This can be dangerous if we update state inside it, because it can cause infinite re-rendering.
+text-blue-500
 
-Example:
-
-```jsx
-useEffect(() => {
-  console.log("Every render");
-});
+text-green-400
 ```
 
 ---
 
-## 3. With Dependency
+# Font Size
 
-```jsx
-useEffect(() => {
-  console.log("Runs when count changes");
-}, [count]);
-```
+```html
+text-xs
 
-### Meaning
+text-sm
 
-This effect will run:
+text-base
 
-```txt
-1. When component first renders
-2. Whenever count changes
-```
+text-lg
 
-Example:
+text-xl
 
-```jsx
-useEffect(() => {
-  console.log("Count updated:", count);
-}, [count]);
+text-2xl
+
+text-4xl
+
+text-6xl
 ```
 
 ---
 
-# API Calling Using `useEffect`
+# Font Weight
 
-Example:
+```html
+font-thin
 
-```jsx
-import { useEffect, useState } from "react";
+font-light
 
-const App = () => {
-  const [data, setData] = useState(null);
+font-normal
 
-  async function getData() {
-    try {
-      const response = await fetch("https://jsonplaceholder.typicode.com/todos/1");
-      const result = await response.json();
+font-medium
 
-      console.log(result);
-      setData(result);
-    } catch (error) {
-      console.log(error.message);
-    }
-  }
+font-semibold
 
-  useEffect(() => {
-    getData();
-  }, []);
+font-bold
 
-  return (
-    <div>
-      <h1>UseEffect API Example</h1>
-
-      {data ? (
-        <div>
-          <h2>{data.title}</h2>
-          <p>Status: {data.completed ? "Completed" : "Not Completed"}</p>
-        </div>
-      ) : (
-        <p>Loading...</p>
-      )}
-    </div>
-  );
-};
-
-export default App;
+font-extrabold
 ```
 
 ---
 
-## Flow of Above Code
+# Width
 
-```txt
-Component loads
-↓
-data state initially null
-↓
-UI shows Loading...
-↓
-useEffect runs
-↓
-getData() function calls API
-↓
-API returns data
-↓
-setData(result) updates state
-↓
-Component re-renders
-↓
-Final data appears on screen
+```html
+w-full
+
+w-screen
+
+w-1/2
+
+w-6/12
+
+w-80
+
+w-96
 ```
 
 ---
 
-# Why We Use `useEffect` for API Calls?
+# Height
 
-If we directly call API function inside component body, it will run again and again on every render.
+```html
+h-full
 
-Wrong:
+h-screen
 
-```jsx
-const App = () => {
-  getData();
+min-h-screen
 
-  return <h1>Hello</h1>;
-};
-```
+h-80
 
-Problem:
-
-```txt
-Component render
-↓
-getData call
-↓
-state update
-↓
-component re-render
-↓
-getData again call
-↓
-infinite loop
-```
-
-Correct:
-
-```jsx
-useEffect(() => {
-  getData();
-}, []);
-```
-
-Now API call happens only once when page loads.
-
----
-
-# Cleanup Function in `useEffect`
-
-Sometimes we need to clean old effects.
-
-Example:
-
-```txt
-Timers
-Intervals
-Event listeners
-Subscriptions
-```
-
-Syntax:
-
-```jsx
-useEffect(() => {
-  const timer = setInterval(() => {
-    console.log("Running...");
-  }, 1000);
-
-  return () => {
-    clearInterval(timer);
-  };
-}, []);
-```
-
-### Meaning
-
-```txt
-useEffect starts interval
-↓
-return function cleans interval
-↓
-cleanup runs when component unmounts
+h-96
 ```
 
 ---
 
-# Example: Document Title Change
+# Margin
 
-```jsx
-import { useEffect, useState } from "react";
+Outer spacing.
 
-const App = () => {
-  const [count, setCount] = useState(0);
+```html
+m-4
 
-  useEffect(() => {
-    document.title = `Count is ${count}`;
-  }, [count]);
+mt-10
 
-  return (
-    <div>
-      <h1>{count}</h1>
-      <button onClick={() => setCount(count + 1)}>
-        Increase
-      </button>
-    </div>
-  );
-};
+mb-5
 
-export default App;
-```
+ml-5
 
-### Meaning
+mr-5
 
-Whenever `count` changes, browser tab title also changes.
+mx-10
 
----
-
-# Common Mistakes
-
-## Mistake 1: Forgetting to import `useEffect`
-
-Wrong:
-
-```jsx
-import { useState } from "react";
-```
-
-Correct:
-
-```jsx
-import { useState, useEffect } from "react";
+my-10
 ```
 
 ---
 
-## Mistake 2: Calling function outside `useEffect`
+# Padding
 
-Wrong:
+Inner spacing.
 
-```jsx
-getData();
-```
+```html
+p-4
 
-Correct:
+px-10
 
-```jsx
-useEffect(() => {
-  getData();
-}, []);
-```
+py-5
 
----
+pt-5
 
-## Mistake 3: Making `useEffect` directly async
-
-Avoid this:
-
-```jsx
-useEffect(async () => {
-  const res = await fetch(url);
-}, []);
-```
-
-Better:
-
-```jsx
-useEffect(() => {
-  async function getData() {
-    const res = await fetch(url);
-    const data = await res.json();
-    console.log(data);
-  }
-
-  getData();
-}, []);
-```
-
-Or define function outside:
-
-```jsx
-async function getData() {
-  const res = await fetch(url);
-  const data = await res.json();
-  console.log(data);
-}
-
-useEffect(() => {
-  getData();
-}, []);
+pb-5
 ```
 
 ---
 
-## Mistake 4: Missing Dependency
+# Border Radius
 
-Wrong:
+```html
+rounded
 
-```jsx
-useEffect(() => {
-  console.log(count);
-}, []);
-```
+rounded-md
 
-If the effect depends on `count`, then better:
+rounded-lg
 
-```jsx
-useEffect(() => {
-  console.log(count);
-}, [count]);
+rounded-xl
+
+rounded-full
 ```
 
 ---
 
-# Dependency Array Summary
+# Border
 
-| Syntax | When it runs |
-|---|---|
-| `useEffect(() => {})` | After every render |
-| `useEffect(() => {}, [])` | Only once after first render |
-| `useEffect(() => {}, [value])` | First render + when value changes |
+```html
+border
 
----
+border-2
 
-# Real Life Use Cases
+border-black
 
-```txt
-1. Fetch data from backend
-2. Search results update when input changes
-3. Update document title
-4. Start/stop timer
-5. Add/remove event listener
-6. Save data to localStorage
+border-red-500
 ```
 
 ---
 
-# Simple Interview Explanation
+# Display
 
-`useEffect` is a React Hook that runs after rendering the component.  
-It is used to handle side effects like API calls, timers, subscriptions, DOM updates, and localStorage operations.
+```html
+block
 
-Example:
+inline
 
-```jsx
-useEffect(() => {
-  getData();
-}, []);
+inline-block
+
+hidden
+
+flex
+
+grid
 ```
-
-This means `getData()` will run only once when the component first loads.
 
 ---
 
-# Final Short Definition
+# Flexbox
 
-```txt
-useEffect is used to run side-effect code after component rendering.
+Enable Flexbox
+
+```html
+flex
 ```
 
-In simple words:
+---
 
-```txt
-React pehle UI render karta hai,
-phir useEffect ke andar likha hua extra kaam run karta hai.
+# Flex Direction
+
+```html
+flex-row
+
+flex-col
 ```
+
+---
+
+# Justify Content
+
+Horizontal alignment.
+
+```html
+justify-start
+
+justify-center
+
+justify-end
+
+justify-between
+
+justify-around
+
+justify-evenly
+```
+
+---
+
+# Align Items
+
+Vertical alignment.
+
+```html
+items-start
+
+items-center
+
+items-end
+
+items-stretch
+```
+
+---
+
+# Gap
+
+Spacing between flex/grid items.
+
+```html
+gap-2
+
+gap-4
+
+gap-6
+
+gap-10
+```
+
+---
+
+# Position
+
+```html
+relative
+
+absolute
+
+fixed
+
+sticky
+```
+
+---
+
+# Top Bottom Left Right
+
+```html
+top-0
+
+left-0
+
+right-0
+
+bottom-0
+```
+
+---
+
+# Z Index
+
+```html
+z-10
+
+z-20
+
+z-50
+```
+
+---
+
+# Overflow
+
+```html
+overflow-hidden
+
+overflow-scroll
+
+overflow-auto
+```
+
+---
+
+# Background Image
+
+```html
+bg-[url('image.jpg')]
+
+bg-cover
+
+bg-contain
+
+bg-center
+
+bg-no-repeat
+```
+
+---
+
+# Object Fit (For Images)
+
+```html
+object-cover
+
+object-contain
+
+object-fill
+```
+
+---
+
+# Shadows
+
+```html
+shadow
+
+shadow-md
+
+shadow-lg
+
+shadow-xl
+```
+
+---
+
+# Hover
+
+```html
+hover:bg-black
+
+hover:text-white
+
+hover:scale-110
+```
+
+---
+
+# Transition
+
+```html
+transition
+
+duration-300
+
+ease-in-out
+```
+
+---
+
+# Transform
+
+```html
+scale-110
+
+rotate-45
+
+translate-x-5
+
+translate-y-5
+```
+
+---
+
+# Cursor
+
+```html
+cursor-pointer
+
+cursor-not-allowed
+```
+
+---
+
+# Opacity
+
+```html
+opacity-0
+
+opacity-50
+
+opacity-100
+```
+
+---
+
+# Responsive Design
+
+| Prefix | Screen Size |
+|---------|-------------|
+| sm: | ≥640px |
+| md: | ≥768px |
+| lg: | ≥1024px |
+| xl: | ≥1280px |
+| 2xl: | ≥1536px |
+
+Example
+
+```html
+<div class="text-xl md:text-4xl lg:text-6xl">
+```
+
+---
+
+# Grid
+
+```html
+grid
+
+grid-cols-2
+
+grid-cols-3
+
+grid-cols-4
+
+grid-rows-2
+```
+
+---
+
+# Common Utility Classes
+
+```html
+select-none
+
+uppercase
+
+lowercase
+
+capitalize
+
+italic
+
+underline
+
+truncate
+```
+
+---
+
+# Frequently Used Combination
+
+Center anything
+
+```html
+flex items-center justify-center
+```
+
+---
+
+Full Screen
+
+```html
+min-h-screen w-full
+```
+
+---
+
+Circle Image
+
+```html
+rounded-full
+```
+
+---
+
+Responsive Image
+
+```html
+w-full h-auto object-cover
+```
+
+---
+
+Button
+
+```html
+bg-green-500
+text-white
+px-5
+py-2
+rounded-lg
+hover:bg-green-600
+transition
+duration-300
+```
+
+---
+
+Card
+
+```html
+bg-white
+shadow-lg
+rounded-xl
+p-6
+```
+
+---
+
+Container
+
+```html
+max-w-7xl
+mx-auto
+px-5
+```
+
+---
+
+# Most Used Tailwind Classes
+
+| Class | Purpose |
+|--------|----------|
+| flex | Flexbox |
+| grid | Grid |
+| justify-center | Horizontal Center |
+| items-center | Vertical Center |
+| gap-5 | Space Between Items |
+| p-5 | Padding |
+| m-5 | Margin |
+| w-full | Full Width |
+| h-screen | Screen Height |
+| min-h-screen | Minimum Screen Height |
+| bg-black | Background |
+| text-white | Text Color |
+| rounded-full | Circle |
+| shadow-lg | Shadow |
+| transition | Smooth Animation |
+| hover:* | Hover Effect |
+| object-cover | Image Fit |
+
+---
+
+# Best Practices
+
+- Prefer Flexbox for layouts.
+- Use Grid for complex layouts.
+- Use Responsive Prefixes (`sm`, `md`, `lg`).
+- Keep class names organized.
+- Avoid unnecessary custom CSS.
+- Use reusable components.
+- Use `min-h-screen` instead of `h-screen` when content can grow.
+
+---
+
+# Folder Structure
+
+```text
+Project/
+│
+├── index.html
+├── input.css
+├── output.css
+├── package.json
+├── package-lock.json
+│
+├── images/
+├── assets/
+└── icons/
+```
+
+---
+
+# Next Topics
+
+- Flexbox Deep Dive
+- Grid Layout
+- Responsive Design
+- Dark Mode
+- Tailwind Components
+- Animations
+- React + Tailwind
+- Portfolio Projects
