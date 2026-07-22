@@ -1,0 +1,22 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "Basics Of Tailwind",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./style.css -o ./output.css --watch",
+    "build": "npx tailwindcss -i ./style.css -o ./output.css"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "postcss": "^8.5.22",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.1.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3"
+  }
+}

@@ -1,0 +1,26 @@
+*{
+  margin : 0%;
+  padding : 0%;
+  box-sizing  : border-box;
+}
+
+html,body{
+  height : 100%;
+  width : 100%;
+}
+
+button{
+  padding: 10px;
+  margin : 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+}
+
+h1{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
