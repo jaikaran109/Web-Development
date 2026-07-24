@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+h1{
+  position: absolute;
+  top : 45%;
+  left : 50%;
+  transform: translate(-50%,-50%);
+  font-weight: 600;
+  text-decoration: underline;
+  white-space: nowrap; /* Contact page me contact and page alg alg line me print ho rhe the ab vo ek line me print honge */
+  text-transform: capitalize; /* hrr word ka first letter capital hoga */
+}
