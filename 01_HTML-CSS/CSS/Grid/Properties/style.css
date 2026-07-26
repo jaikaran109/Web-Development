@@ -19,7 +19,7 @@
 
     /* yha columns 2 target kr rhe ho rows 3 to total targeted tmhare 6 hua means abhi bhi 4 automatically handle ho rhe h usko target krne ke liye hm auto ka use krte h */
     grid-auto-rows: 100px; /* height */
-    grid-auto-flow: column; /* like flex direction*/
+    /* grid-auto-flow: column; like flex direction */
     grid-auto-columns: 100px;
     /* gap: 100px; */
 
@@ -41,7 +41,7 @@ div{
 }
 
 #six{
-
+    background-color: lightseagreen;
 }
 
 #seven{
