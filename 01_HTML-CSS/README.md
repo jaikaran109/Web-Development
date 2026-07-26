@@ -24,3 +24,15 @@ This directory contains the HTML and CSS materials for the Web Development cours
 - The folder is designed for hands-on learning and incremental improvement.
 - Each lesson is self-contained and can be reviewed independently.
 - Project folders demonstrate real-world application of HTML and CSS fundamentals.
+
+
+
+Important
+div     → block
+p       → block
+h1      → block
+span    → inline
+a       → inline
+button  → inline-block
+input   → inline-block
+img     → inline / inline-block type behavior
