@@ -28,11 +28,11 @@ This directory contains the HTML and CSS materials for the Web Development cours
 
 
 Important
-div     → block
-p       → block
-h1      → block
-span    → inline
-a       → inline
-button  → inline-block
-input   → inline-block
+- div     → block
+- p       → block
+- h1      → block
+- span    → inline
+- a       → inline
+- button  → inline-block
+- input   → inline-block
 img     → inline / inline-block type behavior
