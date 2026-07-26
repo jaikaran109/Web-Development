@@ -62,12 +62,18 @@ if(false == NaN){ // false
 
 
 
+
 // NaN kisi bhi value ke equal nahi hota, khud ke bhi nahi.
 // console.log(NaN == NaN);   -> false
 // console.log(NaN === NaN);  -> false
 // console.log(0 == NaN);     -> false
 // console.log("false" == NaN);     -> false
 
+// Reason and Clear concept of NaN
+console.log(0 / 0);         // NaN
+console.log(Number("ABC")); // NaN
+console.log(Math.sqrt(-1)); // NaN
+// mujhe nhi pta NaN kya h , isiliye ye kisi ke equal nhi hoti 
 
 
 
