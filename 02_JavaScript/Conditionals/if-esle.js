@@ -1,3 +1,4 @@
+// prompt-sync library ko import kar rhe h, ye Node.js me terminal se synchronous user input lene ke kaam aati h.
 const prompt = require("prompt-sync")();
 
 let rating = Number(prompt("Give Rating"));
