@@ -1,4 +1,4 @@
-# Authentication — Zero to Complete Notes (Hinglish)
+# Authentication
 
 Ye notes ek conversation-based learning journey se banaye gaye hain — authentication ko zero knowledge se leke complete, practical understanding tak.
 
