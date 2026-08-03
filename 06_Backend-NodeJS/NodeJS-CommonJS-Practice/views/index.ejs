@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">  <!-- ejs files me kbhi bhi public/ nhi likhoge kyuki public already app.use me define h -- static.json wala jo index.js me likha h vha se  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="main w-full min-h-screen bg-zinc-900">
+        <div class="form p-10 text-white">
+            <form action="/create" method="POST">
+                <input class="block px-5 py-2 w-full rounded-md outline-none bg-zinc-800" type="text" placeholder="Title" name="title"> <!--name dena jaruri h bina name ke data nhi dekh skte-->
+                <textarea class="block mt-2 w-full rounded-md outline-none px-5 py-2 resize-none bg-zinc-800" placeholder="Write your tasks here" name="details"></textarea>
+                <input class="bg-blue-600 mt-2 py-2 px-5 rounded" type="submit" value="Create task">
+            </form>
+        </div>
+        <div class="tasks flex flex-wrap gap-3 p-10">
+            <% if(files.length > 0){ %>  <!-- ye normal condition h ki agr length 0 se greater h means task h to usko print krayenge vrna else me No task print kra denge -->
+                <% files.forEach(function(val){ %>  <!-- ab dekho agr 5 files h to 5 baar print hona chahiye na block to uske liye for each loop chla diya h ki hrr value ke liye uska block print ho jaye -->
+                    <div class="task  w-72 px-3 py-4 rounded-md bg-zinc-800">
+                        <h1 class="text-white text-3xl tracking-tighter"><%= val%></h1> <!--ye ab files ke name jo create hue honge vo show krega -->
+                        <a class="text-blue-500 inline-block mt-3" href="/file/<%= val %>">Read More</a>
+                    </div>
+                <% }) %>
+            <% } else { %>
+                <h3 class="text-zinc-600">No Task Yet</h3>
+            <% } %>
+        </div>
+    </div>
+    <script src="/javascripts/script.js"></script>
+</body>
+</html>

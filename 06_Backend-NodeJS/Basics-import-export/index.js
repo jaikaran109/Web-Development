@@ -1,3 +1,3 @@
-const lovish = require("../second");  // import
+import jai from "./second.js";  // import
 
-console.log("Hello World" , lovish);
+console.log("Hello World" , jai);

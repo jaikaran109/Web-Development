@@ -4,13 +4,17 @@
   "description": "its an basic pakage of HelloWorld",
   "license": "ISC",
   "author": "jaikaran",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ExpressJS/Express.js"
   },
   "dependencies": {
     "@angular/cli": "^22.0.5",
+    "cookie-parser": "^1.4.7",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
