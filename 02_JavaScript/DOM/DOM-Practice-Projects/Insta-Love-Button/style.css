@@ -1,0 +1,46 @@
+*{
+    margin : 0%;
+    padding : 0%;
+    box-sizing  : border-box;
+}
+
+html,body{
+    height : 100%;
+    width : 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+}
+
+#container{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+#container i{
+    color: white;
+    font-size: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%) scale(0) ;  /* scale 0 se vo center me hi h lekin bahut chota ho gya h */
+    transition: all ease 0.4s;
+    opacity: 0.8;
+}

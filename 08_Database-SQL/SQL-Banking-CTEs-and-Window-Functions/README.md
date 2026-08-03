@@ -120,5 +120,5 @@ SELECT
     transaction_date,
     amount,
     LAG(amount) OVER (PARTITION BY account_id ORDER BY transaction_date) AS previous_amount
-FROM transactions;
+FROM transactions; 
 ```
