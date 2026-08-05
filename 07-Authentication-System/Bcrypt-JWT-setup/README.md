@@ -1,0 +1,1 @@
+Bcrypt and Cookie Setup
