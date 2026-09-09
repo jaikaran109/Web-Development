@@ -2,7 +2,7 @@
 
 This directory contains the HTML and CSS materials for the Web Development course. It is organized into structured lessons, practical exercises, and example projects to support learning and experimentation.
 
-## Structure
+## Structure 
 
 - `HTML-CSS-Quick-Revision.md` — summary notes for quick review of HTML and CSS concepts.
 - `Job_Application/` — sample job application landing page.
