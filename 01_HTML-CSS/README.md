@@ -6,7 +6,7 @@ This directory contains the HTML and CSS materials for the Web Development cours
 
 - `HTML-CSS-Quick-Revision.md` — summary notes for quick review of HTML and CSS concepts.
 - `Job_Application/` — sample job application landing page.
-- `Lesson1/` through `Lesson10/` — lesson content with HTML examples and syntax reference files.
+- `Lesson1/` through `Lesson10/` — lesson content with HTML examples and syntax reference files. 
 - `Lesson6/` — includes a separate CSS stylesheet demonstration.
 - `Lesson7/` and `Lesson9/` — contain dedicated question folders for practice problems.
 - `Pokemon_Card_Game/` — interactive card game example with HTML and CSS.
